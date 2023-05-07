@@ -10,13 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context){
 
-    return const MaterialApp(
-      home: Icon(
-        Icons.favorite,
-        color: Colors.blue,
-        size: 52.0,
-        semanticLabel: 'Text to announce in accessibility modes',
+    return MaterialApp(
+      home : Center(
+        child: Container(width : 50, height: 50, color : Colors.blue,)
       )
     );
+
   }
 }
